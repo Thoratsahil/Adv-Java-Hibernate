@@ -9,7 +9,7 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [sid=" + sid + ", sname=" + sname + ", scity=" + scity + ", spercentage=" + spercentage + "]";
-	}
+	}//directly represent a Encapsulated class. to override tostring method
 	public int getSid() {
 		return sid;
 	}
@@ -33,6 +33,6 @@ public class Student {
 	}
 	public void setSpercentage(double spercentage) {
 		this.spercentage = spercentage;
-	}
+	} //Use setter and getter
 
 }

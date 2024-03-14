@@ -1,0 +1,6 @@
+Step 1- create maven project.. mavenProject-Quickstart-packageName.
+Step 2- create student model class with getter setter and toString.
+Step 3- create Student.hbm.xml  ---- go to hibernate dtd -- and download hibernate mapping3.0 and hibernate configuration 3.0 --- and copy the first para of hb mapping then load all tags 
+1)hibernate 2)class 3) id 4)property
+
+step 4-hibernate.cfg.xml ---- 1)hibernateconfiguration 2)session factory = many tags In SesssionF

@@ -6,13 +6,13 @@
     
     <hibernate-mapping>
     
-    <class name="com.model.Student">
+    <class name="com.model.Student">  
     <id name="sid" type="int">
-    <generator class="identity"></generator>
+    <generator class="identity"></generator> <!--Auto increment and  primary key -->
      </id>
-     <property name="sname" type="java.lang.String"></property>
+     <property name="sname" type="java.lang.String"></property> 
      <property name="scity" type="java.lang.String"></property>
      <property name="spercentage" type="double"></property>
         
     </class>
-    </hibernate-mapping>
+    </hibernate-mapping> <!-- student hbm is for mapping data-->

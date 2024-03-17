@@ -25,11 +25,11 @@ public class App
     	
     	session.save(s);
     	
-    	tx.commit();
+    	tx.commit(); //tx for save data in db
 
 		//Student ss= session.get(Student.class,2);  //for fetching student from database
     	//System.out.println(ss);
-		
+
     	session.close();
     	
     	

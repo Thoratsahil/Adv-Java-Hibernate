@@ -22,6 +22,12 @@ public class App
     	s.setSname("Rushii"); //set data
     	s.setScity("Pune");
     	s.setSpercentage(78.33);
+
+
+
+		 /*e.setEid(1);
+        session.delete(e); */ //for deleteing data from database from id.
+
     	
     	session.save(s);
     	

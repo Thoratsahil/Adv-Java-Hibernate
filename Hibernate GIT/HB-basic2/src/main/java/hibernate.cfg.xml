@@ -17,7 +17,7 @@
 	<property name="hibernate.show_sql">true</property>
 	<property name="hibernate.format_sql">true</property>
 	
-	<mapping class="com.model.Employee"/>
+	<mapping class="com.model.Employee"/>  <!-- directly map with class because hbm.xml file is not present and this is part of annotations -->
 	
 	</session-factory>
 	 
